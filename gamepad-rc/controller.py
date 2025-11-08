@@ -43,7 +43,7 @@ if __name__ == "__main__":
                     elif report[1] == 0:
                         udp_client(args.host, args.port, "forward")
                     elif report[1] == 255:
-                        udp_client(args.host, args.port, "backwardp")
+                        udp_client(args.host, args.port, "backward")
                     elif report[0] == 127 and report[1] == 127:
                         pass # neutral position, do nothing
                 else:
