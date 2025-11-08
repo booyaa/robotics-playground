@@ -27,3 +27,5 @@ uv venv
 uv pip install hidapi
 python controller.py
 ```
+
+Use D pad to move robot.
